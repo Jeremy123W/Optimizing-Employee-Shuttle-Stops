@@ -1,0 +1,3308 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>Google Maps - pygmaps </title>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false"></script>
+<script type="text/javascript">
+	function initialize() {
+		var centerlatlng = new google.maps.LatLng(37.750000, -122.427325);
+		var myOptions = {
+			zoom: 13,
+			center: centerlatlng,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+
+		var latlng = new google.maps.LatLng(37.707418, -122.447039);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "222 Whittier St, Daly City, CA 94014, USA employee_id 485",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.721335, -122.429407);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "435 Vienna St, San Francisco, CA 94112, USA employee_id 383",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.706102, -122.450627);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "80 Risel Ave, Daly City, CA 94014, USA employee_id 525",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719312, -122.428504);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "928 Persia Ave, San Francisco, CA 94112, USA employee_id 93",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.716105, -122.437706);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "801 Lisbon St, San Francisco, CA 94112, USA employee_id 1364",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.714655, -122.436449);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1169 Geneva Ave, San Francisco, CA 94112, USA employee_id 1312",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719745, -122.443181);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "16 Navajo Ave, San Francisco, CA 94112, USA employee_id 1874",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.713955, -122.439535);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "55 Curtis St, San Francisco, CA 94112, USA employee_id 971",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.715138, -122.435856);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "924 Naples St, San Francisco, CA 94112, USA employee_id 236",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.705865, -122.450057);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "59 Risel Ave, Daly City, CA 94014, USA employee_id 1528",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720619, -122.431192);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "600 Persia Ave, San Francisco, CA 94112, USA employee_id 1864",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.706156, -122.450468);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "72 Risel Ave, Daly City, CA 94014, USA employee_id 708",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712880, -122.439150);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "135 Morse St, San Francisco, CA 94112, USA employee_id 1355",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.710570, -122.449228);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "562 Ellington Ave, San Francisco, CA 94112, USA employee_id 529",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.705126, -122.448653);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "324 Frankfort St, Daly City, CA 94014, USA employee_id 547",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.713952, -122.440165);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "56 Curtis St, San Francisco, CA 94112, USA employee_id 517",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.710839, -122.438039);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1183 Munich St, San Francisco, CA 94112, USA employee_id 1545",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.704876, -122.451706);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "510 Bellevue Ave, Daly City, CA 94014, USA employee_id 939",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712817, -122.434488);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "417 Rolph St, San Francisco, CA 94112, USA employee_id 74",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.715740, -122.440196);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "966 Geneva Ave, San Francisco, CA 94112, USA employee_id 302",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712829, -122.431958);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1499 Geneva Ave, San Francisco, CA 94112, USA employee_id 359",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.711065, -122.446626);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "720 Morse St, San Francisco, CA 94112, USA employee_id 1392",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718336, -122.442164);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "2150 Alemany Blvd, San Francisco, CA 94112, USA employee_id 2161",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.706396, -122.450254);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "631 Hanover St, Daly City, CA 94014, USA employee_id 1785",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720781, -122.431428);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "502 Naples St, San Francisco, CA 94112, USA employee_id 253",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.714951, -122.437109);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1131 Geneva Ave, San Francisco, CA 94112, USA employee_id 388",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712299, -122.440232);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "233 Pope St, San Francisco, CA 94112, USA employee_id 377",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.711405, -122.435790);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "200 Cordova St, San Francisco, CA 94112, USA employee_id 1446",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.711171, -122.446392);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "5601 Mission St, San Francisco, CA 94112, USA employee_id 1521",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.721311, -122.431203);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "474 Naples St, San Francisco, CA 94112, USA employee_id 1952",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720635, -122.428441);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "446 Moscow St, San Francisco, CA 94112, USA employee_id 128",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.716351, -122.437603);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "301 Amazon Ave, San Francisco, CA 94112, USA employee_id 1626",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.705624, -122.451269);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "260 Acton St, Daly City, CA 94014, USA employee_id 1054",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.711412, -122.433893);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1 Naylor St, San Francisco, CA 94112, USA employee_id 693",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.715337, -122.436784);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "934 Edinburgh St, San Francisco, CA 94112, USA employee_id 1208",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.711418, -122.447039);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "5620 Mission St, San Francisco, CA 94112, USA employee_id 2033",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.717344, -122.442116);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "820 Geneva Ave, San Francisco, CA 94112, USA employee_id 1179",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720139, -122.430164);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "750 Persia Ave, San Francisco, CA 94112, USA employee_id 551",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.713817, -122.433971);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "975 Athens St, San Francisco, CA 94112, USA employee_id 915",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.717345, -122.441312);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "855 Geneva Ave, San Francisco, CA 94112, USA employee_id 2017",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.714753, -122.440363);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "20 Curtis St, San Francisco, CA 94112, USA employee_id 1374",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718863, -122.442497);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "34 Bannock St, San Francisco, CA 94112, USA employee_id 475",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.713768, -122.434010);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "981 Athens St, San Francisco, CA 94112, USA employee_id 1399",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.711307, -122.437906);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1225 Naples St, San Francisco, CA 94112, USA employee_id 1419",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719157, -122.429961);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "551 Athens St, San Francisco, CA 94112, USA employee_id 137",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712030, -122.431075);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "737 Rolph St, San Francisco, CA 94112, USA employee_id 616",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.716494, -122.441022);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "899 Geneva Ave, San Francisco, CA 94112, USA employee_id 439",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.704113, -122.449915);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "708 Acton St, Daly City, CA 94014, USA employee_id 1661",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719500, -122.440566);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "2044 Alemany Blvd, San Francisco, CA 94112, USA employee_id 1436",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.715816, -122.438598);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "850 Lisbon St, San Francisco, CA 94112, USA employee_id 1811",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.710955, -122.436691);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1144 Munich St, San Francisco, CA 94112, USA employee_id 1456",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.713768, -122.434010);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "981 Athens St, San Francisco, CA 94112, USA employee_id 1948",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720253, -122.442814);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "222 Seneca Ave, San Francisco, CA 94112, USA employee_id 964",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.709256, -122.445324);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "242 Lowell St, San Francisco, CA 94112, USA employee_id 460",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.710869, -122.433206);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "781 Prague St, San Francisco, CA 94112, USA employee_id 86",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.708451, -122.445935);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "440 Hanover St, San Francisco, CA 94112, USA employee_id 641",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720870, -122.431248);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "598 Persia Ave, San Francisco, CA 94112, USA employee_id 911",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719428, -122.429354);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "524 Moscow St, San Francisco, CA 94112, USA employee_id 1966",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.716861, -122.441020);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "5098 Mission St, San Francisco, CA 94112, USA employee_id 1281",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719484, -122.430812);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "555 Vienna St, San Francisco, CA 94112, USA employee_id 765",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718319, -122.443246);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "730 Geneva Ave, San Francisco, CA 94112, USA employee_id 1950",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.715001, -122.438644);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1062 Geneva Ave, San Francisco, CA 94112, USA employee_id 1681",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.716646, -122.437312);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "751 Lisbon St, San Francisco, CA 94112, USA employee_id 733",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.707339, -122.444193);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "428 Lowell St, San Francisco, CA 94112, USA employee_id 1260",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.715356, -122.434677);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "827 Vienna St, San Francisco, CA 94112, USA employee_id 1397",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.717452, -122.442325);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "2201 Alemany Blvd, San Francisco, CA 94112, USA employee_id 1056",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.704931, -122.450703);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "302 Acton St, Daly City, CA 94014, USA employee_id 512",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712180, -122.430433);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1576 Geneva Ave, San Francisco, CA 94112, USA employee_id 920",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.705795, -122.452031);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "439 Templeton Ave, Daly City, CA 94014, USA employee_id 1402",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.705295, -122.449214);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "439 Bellevue Ave, Daly City, CA 94014, USA employee_id 1534",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718922, -122.430139);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "567 Athens St, San Francisco, CA 94112, USA employee_id 1161",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719645, -122.442508);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1198 Cayuga Ave, San Francisco, CA 94112, USA employee_id 433",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.704428, -122.449119);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "361 Frankfort St, Daly City, CA 94014, USA employee_id 1834",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712097, -122.436040);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "102 Cordova St, San Francisco, CA 94112, USA employee_id 217",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.713970, -122.434465);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "976 Athens St, San Francisco, CA 94112, USA employee_id 565",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720755, -122.440328);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1101 Cayuga Ave, San Francisco, CA 94112, USA employee_id 2181",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.715075, -122.438819);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1050 Geneva Ave, San Francisco, CA 94112, USA employee_id 536",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.705754, -122.451949);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "449 Templeton Ave, Daly City, CA 94014, USA employee_id 580",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.714455, -122.432822);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "899 Moscow St, San Francisco, CA 94112, USA employee_id 1717",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.709040, -122.448493);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "728 Brunswick St, San Francisco, CA 94112, USA employee_id 854",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.706769, -122.449489);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "615 Hanover St, Daly City, CA 94014, USA employee_id 2100",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.714466, -122.439780);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "25 Curtis St, San Francisco, CA 94112, USA employee_id 2079",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712805, -122.433227);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "4 S Hill Blvd, San Francisco, CA 94112, USA employee_id 1145",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.710285, -122.433059);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "198 Naylor St, San Francisco, CA 94112, USA employee_id 1028",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718632, -122.441273);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "2099 Alemany Blvd, San Francisco, CA 94112, USA employee_id 1862",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712720, -122.435761);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "43 Cordova St, San Francisco, CA 94112, USA employee_id 1656",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.710100, -122.448641);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "5715 Mission St, San Francisco, CA 94112, USA employee_id 1786",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712163, -122.430349);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1580 Geneva Ave, San Francisco, CA 94112, USA employee_id 322",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712375, -122.431055);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1544 Geneva Ave, San Francisco, CA 94112, USA employee_id 1590",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712394, -122.435022);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1121 Athens St, San Francisco, CA 94112, USA employee_id 1283",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.707112, -122.449736);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "618 Hanover St, Daly City, CA 94014, USA employee_id 1618",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.706562, -122.451221);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "199 Acton St, Daly City, CA 94014, USA employee_id 27",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712744, -122.439745);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "207 Morse St, San Francisco, CA 94112, USA employee_id 1992",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719341, -122.430513);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "554 Athens St, San Francisco, CA 94112, USA employee_id 940",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.707353, -122.450127);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "131 Winchester St, Daly City, CA 94014, USA employee_id 208",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719543, -122.430767);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "553 Vienna St, San Francisco, CA 94112, USA employee_id 1739",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719645, -122.442508);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1198 Cayuga Ave, San Francisco, CA 94112, USA employee_id 1075",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.704536, -122.448801);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "343 Frankfort St, Daly City, CA 94014, USA employee_id 1284",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.716063, -122.439535);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "965 Geneva Ave, San Francisco, CA 94112, USA employee_id 864",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.709109, -122.445628);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "240 Lowell St, San Francisco, CA 94112, USA employee_id 110",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.706396, -122.450254);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "631 Hanover St, Daly City, CA 94014, USA employee_id 702",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.714446, -122.430587);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "799 Moscow St, San Francisco, CA 94112, USA employee_id 2062",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.706532, -122.449361);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "16 Risel Ave, Daly City, CA 94014, USA employee_id 238",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.715999, -122.437379);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "900 Madrid St, San Francisco, CA 94112, USA employee_id 627",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.713323, -122.437458);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "31 Morse St, San Francisco, CA 94112, USA employee_id 1112",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720705, -122.430437);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "645 Persia Ave, San Francisco, CA 94112, USA employee_id 613",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.721764, -122.430797);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "444 Naples St, San Francisco, CA 94112, USA employee_id 204",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.711150, -122.434295);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "2 Naylor St, San Francisco, CA 94112, USA employee_id 72",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718319, -122.443246);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "730 Geneva Ave, San Francisco, CA 94112, USA employee_id 1890",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720432, -122.440481);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1117 Cayuga Ave, San Francisco, CA 94112, USA employee_id 853",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718932, -122.438829);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "4963 Mission St, San Francisco, CA 94112, USA employee_id 2130",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.715420, -122.438155);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1063 Geneva Ave, San Francisco, CA 94112, USA employee_id 1164",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.704167, -122.449968);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "706 Acton St, Daly City, CA 94014, USA employee_id 1877",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.705234, -122.450918);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "498 Bellevue Ave, Daly City, CA 94014, USA employee_id 697",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720274, -122.443129);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "231 Seneca Ave, San Francisco, CA 94112, USA employee_id 133",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.704428, -122.449119);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "361 Frankfort St, Daly City, CA 94014, USA employee_id 390",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720523, -122.431800);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "526 Naples St, San Francisco, CA 94112, USA employee_id 2166",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.706396, -122.450254);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "631 Hanover St, Daly City, CA 94014, USA employee_id 1766",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.716822, -122.437179);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "731 Lisbon St, San Francisco, CA 94112, USA employee_id 2011",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.711454, -122.432412);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "616 Rolph St, San Francisco, CA 94112, USA employee_id 1725",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.704568, -122.449096);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "355 Frankfort St, Daly City, CA 94014, USA employee_id 1274",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.705160, -122.449611);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "459 Bellevue Ave, Daly City, CA 94014, USA employee_id 130",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.711547, -122.437721);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1201 Naples St, San Francisco, CA 94112, USA employee_id 1938",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.721426, -122.429401);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "431 Vienna St, San Francisco, CA 94112, USA employee_id 223",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.715694, -122.440122);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "974 Geneva Ave, San Francisco, CA 94112, USA employee_id 1368",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.713954, -122.434992);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1253 Geneva Ave, San Francisco, CA 94112, USA employee_id 371",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.713188, -122.437810);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "57 Morse St, San Francisco, CA 94112, USA employee_id 1479",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720202, -122.440980);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1138 Cayuga Ave, San Francisco, CA 94112, USA employee_id 905",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718831, -122.430247);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "575 Athens St, San Francisco, CA 94112, USA employee_id 575",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.704882, -122.449368);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "360 Frankfort St, Daly City, CA 94014, USA employee_id 1216",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.704329, -122.449669);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "395 Frankfort St, Daly City, CA 94014, USA employee_id 952",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.715586, -122.438086);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "855 Lisbon St, San Francisco, CA 94112, USA employee_id 2159",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.717775, -122.441829);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "817 Geneva Ave, San Francisco, CA 94112, USA employee_id 2152",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.707331, -122.449607);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "176 Oliver St, Daly City, CA 94014, USA employee_id 1478",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712765, -122.431871);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1599 Geneva Ave, San Francisco, CA 94112, USA employee_id 499",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.711634, -122.430967);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "748 Rolph St, San Francisco, CA 94112, USA employee_id 1822",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.705982, -122.451406);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "232 Acton St, Daly City, CA 94014, USA employee_id 1600",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.716787, -122.441671);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "860 Geneva Ave, San Francisco, CA 94112, USA employee_id 1532",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.706396, -122.450254);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "631 Hanover St, Daly City, CA 94014, USA employee_id 1201",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719107, -122.428503);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "418 Munich St, San Francisco, CA 94112, USA employee_id 298",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.717864, -122.442716);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "2200 Alemany Blvd, San Francisco, CA 94112, USA employee_id 894",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.714306, -122.440257);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "42 Curtis St, San Francisco, CA 94112, USA employee_id 1223",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.721330, -122.430569);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "463 Naples St, San Francisco, CA 94112, USA employee_id 2191",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.704346, -122.449357);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "373 Frankfort St, Daly City, CA 94014, USA employee_id 1549",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.716351, -122.437603);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "301 Amazon Ave, San Francisco, CA 94112, USA employee_id 2019",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.715173, -122.435147);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "901 Naples St, San Francisco, CA 94112, USA employee_id 590",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.706695, -122.450905);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "674 Hanover St, Daly City, CA 94014, USA employee_id 1894",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718676, -122.443076);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "731 Geneva Ave, San Francisco, CA 94112, USA employee_id 973",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720202, -122.440980);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1138 Cayuga Ave, San Francisco, CA 94112, USA employee_id 2115",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.705865, -122.450057);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "59 Risel Ave, Daly City, CA 94014, USA employee_id 970",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.721611, -122.428894);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "724 Brazil Ave, San Francisco, CA 94112, USA employee_id 1040",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.706079, -122.450970);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "231 Acton St, Daly City, CA 94014, USA employee_id 1431",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.714908, -122.435344);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "941 Naples St, San Francisco, CA 94112, USA employee_id 1300",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.704428, -122.449119);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "361 Frankfort St, Daly City, CA 94014, USA employee_id 1787",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719013, -122.431168);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "587 Vienna St, San Francisco, CA 94112, USA employee_id 82",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.703712, -122.450675);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "724 Templeton Ave, Daly City, CA 94014, USA employee_id 1957",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712825, -122.431946);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1501 Geneva Ave, San Francisco, CA 94112, USA employee_id 508",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712641, -122.438644);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "142 Newton St, San Francisco, CA 94112, USA employee_id 266",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720836, -122.428773);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "445 Athens St, San Francisco, CA 94112, USA employee_id 858",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.714446, -122.430587);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "799 Moscow St, San Francisco, CA 94112, USA employee_id 1749",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.706015, -122.449774);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "43 Risel Ave, Daly City, CA 94014, USA employee_id 912",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718813, -122.429202);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "551 Moscow St, San Francisco, CA 94112, USA employee_id 634",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719719, -122.428849);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "899 Persia Ave, San Francisco, CA 94112, USA employee_id 1757",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.715711, -122.435589);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "527 Amazon Ave, San Francisco, CA 94112, USA employee_id 1722",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720705, -122.430437);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "645 Persia Ave, San Francisco, CA 94112, USA employee_id 1733",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720836, -122.428773);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "445 Athens St, San Francisco, CA 94112, USA employee_id 1046",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.717877, -122.441956);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "801 Geneva Ave, San Francisco, CA 94112, USA employee_id 545",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712373, -122.436415);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1224 Athens St, San Francisco, CA 94112, USA employee_id 3",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.714265, -122.437001);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1162 Geneva Ave, San Francisco, CA 94112, USA employee_id 1438",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.705376, -122.448976);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "427 Bellevue Ave, Daly City, CA 94014, USA employee_id 1962",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.715582, -122.438915);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1025 Geneva Ave, San Francisco, CA 94112, USA employee_id 1117",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720141, -122.431000);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "524 Vienna St, San Francisco, CA 94112, USA employee_id 299",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.717864, -122.442716);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "2200 Alemany Blvd, San Francisco, CA 94112, USA employee_id 772",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.713594, -122.434087);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1315 Geneva Ave, San Francisco, CA 94112, USA employee_id 1930",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718474, -122.430125);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "831 Russia Ave, San Francisco, CA 94112, USA employee_id 2189",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.721012, -122.428560);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "431 Athens St, San Francisco, CA 94112, USA employee_id 501",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.714446, -122.430587);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "799 Moscow St, San Francisco, CA 94112, USA employee_id 1066",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720047, -122.429978);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "504 Athens St, San Francisco, CA 94112, USA employee_id 101",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.713760, -122.439452);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "65 Curtis St, San Francisco, CA 94112, USA employee_id 1319",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.713273, -122.437528);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "35 Morse St, San Francisco, CA 94112, USA employee_id 759",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.705796, -122.449434);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "436 Bellevue Ave, Daly City, CA 94014, USA employee_id 240",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719232, -122.442470);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "171 Seneca Ave, San Francisco, CA 94112, USA employee_id 1403",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712865, -122.433882);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1350 Geneva Ave, San Francisco, CA 94112, USA employee_id 49",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.711145, -122.437771);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1184 Munich St, San Francisco, CA 94112, USA employee_id 1636",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.710064, -122.447743);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "25 Whittier St, San Francisco, CA 94112, USA employee_id 638",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.711298, -122.429729);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "814 Rolph St, San Francisco, CA 94112, USA employee_id 1437",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.710751, -122.438234);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "275 Curtis St, San Francisco, CA 94112, USA employee_id 897",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719823, -122.428415);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "487 Moscow St, San Francisco, CA 94112, USA employee_id 340",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719840, -122.442825);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "207 Seneca Ave, San Francisco, CA 94112, USA employee_id 441",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720139, -122.430164);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "750 Persia Ave, San Francisco, CA 94112, USA employee_id 84",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.704882, -122.449368);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "360 Frankfort St, Daly City, CA 94014, USA employee_id 523",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.715999, -122.437379);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "900 Madrid St, San Francisco, CA 94112, USA employee_id 29",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.714019, -122.438087);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "218 Rolph St, San Francisco, CA 94112, USA employee_id 2116",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719929, -122.430067);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "508 Athens St, San Francisco, CA 94112, USA employee_id 1567",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719157, -122.429961);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "551 Athens St, San Francisco, CA 94112, USA employee_id 1468",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718068, -122.441003);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "61 Seneca Ave, San Francisco, CA 94112, USA employee_id 2132",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.705263, -122.449309);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "443 Bellevue Ave, Daly City, CA 94014, USA employee_id 1603",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720141, -122.431000);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "524 Vienna St, San Francisco, CA 94112, USA employee_id 1377",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.704346, -122.449357);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "373 Frankfort St, Daly City, CA 94014, USA employee_id 2012",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.708978, -122.444411);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "376 Hanover St, San Francisco, CA 94112, USA employee_id 1007",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712650, -122.435742);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "45 Cordova St, San Francisco, CA 94112, USA employee_id 1338",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718780, -122.429843);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "566 Moscow St, San Francisco, CA 94112, USA employee_id 39",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.704882, -122.449368);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "360 Frankfort St, Daly City, CA 94014, USA employee_id 783",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720806, -122.429808);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "469 Vienna St, San Francisco, CA 94112, USA employee_id 1177",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719548, -122.428180);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "931 Persia Ave, San Francisco, CA 94112, USA employee_id 234",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.705651, -122.451786);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "475 Templeton Ave, Daly City, CA 94014, USA employee_id 1485",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.706000, -122.450927);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "237 Acton St, Daly City, CA 94014, USA employee_id 67",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.706018, -122.450780);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "88 Risel Ave, Daly City, CA 94014, USA employee_id 511",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.710384, -122.448400);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "5699 Mission St, San Francisco, CA 94112, USA employee_id 1847",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.717002, -122.438732);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "772 Paris St, San Francisco, CA 94112, USA employee_id 1097",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.704174, -122.450634);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "694 Templeton Ave, Daly City, CA 94014, USA employee_id 1793",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718659, -122.441715);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "2106 Alemany Blvd, San Francisco, CA 94112, USA employee_id 1902",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.704882, -122.449368);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "360 Frankfort St, Daly City, CA 94014, USA employee_id 1266",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.706564, -122.449167);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "8 Risel Ave, Daly City, CA 94014, USA employee_id 1807",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.713265, -122.437051);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1118 Naples St, San Francisco, CA 94112, USA employee_id 929",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718952, -122.429028);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "539 Moscow St, San Francisco, CA 94112, USA employee_id 1776",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.714700, -122.432909);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "836 Moscow St, San Francisco, CA 94112, USA employee_id 347",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.709200, -122.443729);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "340 Hanover St, San Francisco, CA 94112, USA employee_id 541",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.707304, -122.446092);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "251 Whittier St, Daly City, CA 94014, USA employee_id 230",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.705688, -122.449751);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "452 Bellevue Ave, Daly City, CA 94014, USA employee_id 188",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.714748, -122.435495);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "953 Naples St, San Francisco, CA 94112, USA employee_id 1544",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.710637, -122.437565);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1171 Munich St, San Francisco, CA 94112, USA employee_id 1175",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.711323, -122.438577);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1254 Naples St, San Francisco, CA 94112, USA employee_id 667",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.704310, -122.451223);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "18 Alexander Ave, Daly City, CA 94014, USA employee_id 696",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712152, -122.432997);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "515 Rolph St, San Francisco, CA 94112, USA employee_id 52",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.711684, -122.438310);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1220 Naples St, San Francisco, CA 94112, USA employee_id 26",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.714789, -122.435429);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "949 Naples St, San Francisco, CA 94112, USA employee_id 1027",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712128, -122.433989);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "468 Rolph St, San Francisco, CA 94112, USA employee_id 254",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.704921, -122.451620);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "506 Bellevue Ave, Daly City, CA 94014, USA employee_id 1571",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.711947, -122.437455);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1185 Naples St, San Francisco, CA 94112, USA employee_id 614",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.711112, -122.432854);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "743 Prague St, San Francisco, CA 94112, USA employee_id 296",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.705566, -122.451220);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "264 Acton St, Daly City, CA 94014, USA employee_id 297",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.704935, -122.450986);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "499 Bellevue Ave, Daly City, CA 94014, USA employee_id 1474",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712765, -122.431871);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1599 Geneva Ave, San Francisco, CA 94112, USA employee_id 1042",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719886, -122.442897);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "211 Seneca Ave, San Francisco, CA 94112, USA employee_id 1342",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.721592, -122.429241);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "411 Vienna St, San Francisco, CA 94112, USA employee_id 1116",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.711862, -122.428320);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1669 Geneva Ave, San Francisco, CA 94134, USA employee_id 94",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.716179, -122.438339);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "816 Lisbon St, San Francisco, CA 94112, USA employee_id 1595",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719454, -122.428800);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "900 Persia Ave, San Francisco, CA 94112, USA employee_id 2163",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.710398, -122.445372);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "155 Lowell St, San Francisco, CA 94112, USA employee_id 309",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719539, -122.429219);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "512 Moscow St, San Francisco, CA 94112, USA employee_id 1133",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712741, -122.438615);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "136 Newton St, San Francisco, CA 94112, USA employee_id 1983",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719343, -122.428032);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "998 Persia Ave, San Francisco, CA 94112, USA employee_id 1954",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.713894, -122.433233);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "943 Moscow St, San Francisco, CA 94112, USA employee_id 1250",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.711532, -122.430377);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "776 Rolph St, San Francisco, CA 94112, USA employee_id 1587",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.708572, -122.447200);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "145 Whittier St, San Francisco, CA 94112, USA employee_id 895",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712068, -122.438348);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "198 Newton St, San Francisco, CA 94112, USA employee_id 1599",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.706000, -122.450927);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "237 Acton St, Daly City, CA 94014, USA employee_id 454",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.707487, -122.447051);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "216 Whittier St, Daly City, CA 94014, USA employee_id 2074",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.715845, -122.435795);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "851 Edinburgh St, San Francisco, CA 94112, USA employee_id 778",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.715138, -122.435856);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "924 Naples St, San Francisco, CA 94112, USA employee_id 1748",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718864, -122.441373);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "2098 Alemany Blvd, San Francisco, CA 94112, USA employee_id 797",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.704918, -122.451271);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "598 Templeton Ave, Daly City, CA 94014, USA employee_id 1358",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720928, -122.430403);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "480 Vienna St, San Francisco, CA 94112, USA employee_id 2086",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.714455, -122.432822);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "899 Moscow St, San Francisco, CA 94112, USA employee_id 2063",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.705451, -122.451540);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "501 Templeton Ave, Daly City, CA 94014, USA employee_id 724",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.714446, -122.430587);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "799 Moscow St, San Francisco, CA 94112, USA employee_id 1482",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718767, -122.442621);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "46 Bannock St, San Francisco, CA 94112, USA employee_id 1812",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718956, -122.443315);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1271 Cayuga Ave, San Francisco, CA 94112, USA employee_id 1838",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718957, -122.429710);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "554 Moscow St, San Francisco, CA 94112, USA employee_id 2021",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.710064, -122.447743);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "25 Whittier St, San Francisco, CA 94112, USA employee_id 1455",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.714199, -122.435502);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1231 Geneva Ave, San Francisco, CA 94112, USA employee_id 786",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.716939, -122.440305);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "5103 Mission St, San Francisco, CA 94112, USA employee_id 2075",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719893, -122.441421);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1158 Cayuga Ave, San Francisco, CA 94112, USA employee_id 857",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.704352, -122.450921);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "14 Alexander Ave, Daly City, CA 94014, USA employee_id 1726",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.714446, -122.430587);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "799 Moscow St, San Francisco, CA 94112, USA employee_id 1313",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.713183, -122.439723);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "92 Curtis St, San Francisco, CA 94112, USA employee_id 799",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720517, -122.439912);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "65 Oneida Ave, San Francisco, CA 94112, USA employee_id 1949",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718632, -122.441273);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "2099 Alemany Blvd, San Francisco, CA 94112, USA employee_id 1669",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.710187, -122.444950);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "572 Brunswick St, San Francisco, CA 94112, USA employee_id 1565",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718599, -122.440208);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "165 Bertita St, San Francisco, CA 94112, USA employee_id 699",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712163, -122.430349);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1580 Geneva Ave, San Francisco, CA 94112, USA employee_id 1296",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.709124, -122.445432);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "244 Lowell St, San Francisco, CA 94112, USA employee_id 370",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712765, -122.431871);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1599 Geneva Ave, San Francisco, CA 94112, USA employee_id 768",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.706122, -122.448841);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "282 Oliver St, Daly City, CA 94014, USA employee_id 1574",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.703712, -122.450675);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "724 Templeton Ave, Daly City, CA 94014, USA employee_id 1166",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.710595, -122.447505);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "762 Morse St, San Francisco, CA 94112, USA employee_id 1428",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.704228, -122.450034);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "702 Acton St, Daly City, CA 94014, USA employee_id 1273",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712835, -122.439143);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "141 Morse St, San Francisco, CA 94112, USA employee_id 2147",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719489, -122.429307);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "522 Moscow St, San Francisco, CA 94112, USA employee_id 1710",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712462, -122.435633);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "65 Cordova St, San Francisco, CA 94112, USA employee_id 366",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.717864, -122.442716);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "2200 Alemany Blvd, San Francisco, CA 94112, USA employee_id 803",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.714152, -122.440631);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "91 Pope St, San Francisco, CA 94112, USA employee_id 12",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719764, -122.428460);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "491 Moscow St, San Francisco, CA 94112, USA employee_id 1205",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.705499, -122.450304);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "474 Bellevue Ave, Daly City, CA 94014, USA employee_id 1323",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718873, -122.443164);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "715 Geneva Ave, San Francisco, CA 94112, USA employee_id 1426",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.716644, -122.438789);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "198 Amazon Ave, San Francisco, CA 94112, USA employee_id 532",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.717931, -122.439567);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "5025 Mission St, San Francisco, CA 94112, USA employee_id 360",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.715876, -122.438556);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "842 Lisbon St, San Francisco, CA 94112, USA employee_id 1288",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.706135, -122.448492);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "398 Bellevue Ave, Daly City, CA 94014, USA employee_id 286",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.705224, -122.449423);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "451 Bellevue Ave, Daly City, CA 94014, USA employee_id 1507",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.710954, -122.436604);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1142 Munich St, San Francisco, CA 94112, USA employee_id 291",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.709885, -122.440592);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "405 Allison St, San Francisco, CA 94112, USA employee_id 33",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.706914, -122.450391);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "656 Hanover St, Daly City, CA 94014, USA employee_id 727",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.704881, -122.449168);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "348 Frankfort St, Daly City, CA 94014, USA employee_id 1026",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.711031, -122.448505);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "512 Ellington Ave, San Francisco, CA 94112, USA employee_id 1985",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.714455, -122.432822);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "899 Moscow St, San Francisco, CA 94112, USA employee_id 1869",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.715885, -122.437872);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "825 Lisbon St, San Francisco, CA 94112, USA employee_id 674",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.721306, -122.428338);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "411 Athens St, San Francisco, CA 94112, USA employee_id 1604",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.706803, -122.444792);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "233 Bellevue Ave, Daly City, CA 94014, USA employee_id 1898",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.707122, -122.449192);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "599 Hanover St, Daly City, CA 94014, USA employee_id 937",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.704842, -122.451777);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "518 Bellevue Ave, Daly City, CA 94014, USA employee_id 2124",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719418, -122.428726);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "906 Persia Ave, San Francisco, CA 94112, USA employee_id 392",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720366, -122.430688);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "644 Persia Ave, San Francisco, CA 94112, USA employee_id 665",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.710629, -122.431657);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "96 S Hill Blvd, San Francisco, CA 94112, USA employee_id 283",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719798, -122.429528);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "808 Persia Ave, San Francisco, CA 94112, USA employee_id 932",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.704717, -122.451346);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "600 Templeton Ave, Daly City, CA 94014, USA employee_id 1582",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.706917, -122.445008);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "238 Bellevue Ave, Daly City, CA 94014, USA employee_id 1940",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719670, -122.431357);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "560 Vienna St, San Francisco, CA 94112, USA employee_id 2187",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.706005, -122.449645);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "39 Risel Ave, Daly City, CA 94014, USA employee_id 1541",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720366, -122.430688);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "644 Persia Ave, San Francisco, CA 94112, USA employee_id 1191",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720716, -122.429382);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "462 Athens St, San Francisco, CA 94112, USA employee_id 1867",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.705715, -122.449672);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "448 Bellevue Ave, Daly City, CA 94014, USA employee_id 1946",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.717431, -122.440698);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "5060 Mission St, San Francisco, CA 94112, USA employee_id 782",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718929, -122.430824);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "582 Athens St, San Francisco, CA 94112, USA employee_id 1616",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.705591, -122.451784);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "487 Templeton Ave, Daly City, CA 94014, USA employee_id 1052",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718244, -122.439399);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "2 Italy Ave, San Francisco, CA 94112, USA employee_id 495",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.715219, -122.437267);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "955 Madrid St, San Francisco, CA 94112, USA employee_id 434",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719787, -122.429320);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "816 Persia Ave, San Francisco, CA 94112, USA employee_id 345",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.715647, -122.439930);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "984 Geneva Ave, San Francisco, CA 94112, USA employee_id 382",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.706392, -122.450598);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "671 Hanover St, Daly City, CA 94014, USA employee_id 1188",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.721625, -122.442156);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "499 Otsego Ave, San Francisco, CA 94112, USA employee_id 500",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712185, -122.439025);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "167 Curtis St, San Francisco, CA 94112, USA employee_id 1550",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.709885, -122.440592);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "405 Allison St, San Francisco, CA 94112, USA employee_id 1975",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720294, -122.439111);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1991 Alemany Blvd, San Francisco, CA 94112, USA employee_id 1746",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719936, -122.440101);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "2010 Alemany Blvd, San Francisco, CA 94112, USA employee_id 1945",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.705405, -122.448472);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "322 Oliver St, Daly City, CA 94014, USA employee_id 428",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.705250, -122.451294);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "551 Templeton Ave, Daly City, CA 94014, USA employee_id 372",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719455, -122.443479);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "11 Navajo Ave, San Francisco, CA 94112, USA employee_id 216",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.721153, -122.431377);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "531 Persia Ave, San Francisco, CA 94112, USA employee_id 1880",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.717172, -122.438072);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "737 Paris St, San Francisco, CA 94112, USA employee_id 1789",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.714168, -122.437490);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "243 Rolph St, San Francisco, CA 94112, USA employee_id 447",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.709996, -122.445371);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "195 Lowell St, San Francisco, CA 94112, USA employee_id 2169",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718587, -122.439160);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "4987 Mission St, San Francisco, CA 94112, USA employee_id 996",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.721592, -122.429241);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "411 Vienna St, San Francisco, CA 94112, USA employee_id 885",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.716944, -122.437771);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "742 Lisbon St, San Francisco, CA 94112, USA employee_id 617",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719698, -122.431220);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "554 Vienna St, San Francisco, CA 94112, USA employee_id 278",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.714185, -122.436712);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1184 Geneva Ave, San Francisco, CA 94112, USA employee_id 1194",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718716, -122.429206);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "555 Moscow St, San Francisco, CA 94112, USA employee_id 620",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712933, -122.434032);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1340 Geneva Ave, San Francisco, CA 94112, USA employee_id 1165",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.711358, -122.435150);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "221 Cordova St, San Francisco, CA 94112, USA employee_id 1581",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.714428, -122.433091);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "900 Moscow St, San Francisco, CA 94112, USA employee_id 805",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712775, -122.434420);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "429 Rolph St, San Francisco, CA 94112, USA employee_id 930",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720241, -122.430874);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "516 Vienna St, San Francisco, CA 94112, USA employee_id 993",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.707244, -122.450338);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "143 Winchester St, Daly City, CA 94014, USA employee_id 1650",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720310, -122.429776);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "498 Athens St, San Francisco, CA 94112, USA employee_id 809",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.711178, -122.445168);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "651 Morse St, San Francisco, CA 94112, USA employee_id 2090",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719692, -122.429305);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "818 Persia Ave, San Francisco, CA 94112, USA employee_id 824",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718396, -122.440455);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "181 Bertita St, San Francisco, CA 94112, USA employee_id 844",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.711383, -122.438534);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1250 Naples St, San Francisco, CA 94112, USA employee_id 1598",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718988, -122.430780);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "578 Athens St, San Francisco, CA 94112, USA employee_id 1939",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.710856, -122.437549);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1173 Munich St, San Francisco, CA 94112, USA employee_id 1816",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719611, -122.431402);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "562 Vienna St, San Francisco, CA 94112, USA employee_id 1649",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.706008, -122.447120);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "341 Bellevue Ave, Daly City, CA 94014, USA employee_id 2170",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719105, -122.430691);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "568 Athens St, San Francisco, CA 94112, USA employee_id 1623",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718433, -122.438972);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "15 Italy Ave, San Francisco, CA 94112, USA employee_id 1888",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718111, -122.441481);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "2133 Alemany Blvd, San Francisco, CA 94112, USA employee_id 983",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.717544, -122.439865);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "5059 Mission St, San Francisco, CA 94112, USA employee_id 1012",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.720460, -122.431146);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "509 Naples St, San Francisco, CA 94112, USA employee_id 1608",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.717177, -122.441098);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "875 Geneva Ave, San Francisco, CA 94112, USA employee_id 1053",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.719438, -122.440720);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "2050 Alemany Blvd, San Francisco, CA 94112, USA employee_id 1126",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.705334, -122.448473);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "330 Oliver St, Daly City, CA 94014, USA employee_id 385",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.712765, -122.431871);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1599 Geneva Ave, San Francisco, CA 94112, USA employee_id 1025",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.718478, -122.439536);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/008000.png');
+		var marker = new google.maps.Marker({
+		title: "centroid",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.709688, -122.450124);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/008000.png');
+		var marker = new google.maps.Marker({
+		title: "centroid",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+	}
+</script>
+</head>
+<body style="margin:0px; padding:0px;" onload="initialize()">
+	<div id="map_canvas" style="width: 100%; height: 100%;"></div>
+</body>
+</html>

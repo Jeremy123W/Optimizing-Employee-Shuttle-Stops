@@ -1,0 +1,383 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>Google Maps - pygmaps </title>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false"></script>
+<script type="text/javascript">
+	function initialize() {
+		var centerlatlng = new google.maps.LatLng(37.750000, -122.427325);
+		var myOptions = {
+			zoom: 13,
+			center: centerlatlng,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+
+		var latlng = new google.maps.LatLng(37.783395, -122.395710);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "645 Harrison St, San Francisco, CA 94107, USA employee_id 2097",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.783534, -122.396686);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "650 Harrison St, San Francisco, CA 94107, USA employee_id 1418",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.785233, -122.395693);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "303 2nd St, San Francisco, CA 94107, USA employee_id 1001",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.785269, -122.397576);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "620 Folsom St, San Francisco, CA 94107, USA employee_id 790",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.786438, -122.395188);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "25 Essex St, San Francisco, CA 94105, USA employee_id 463",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.784918, -122.396483);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "611 Folsom St, San Francisco, CA 94107, USA employee_id 1711",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.783534, -122.396686);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "650 Harrison St, San Francisco, CA 94107, USA employee_id 1728",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.784312, -122.394425);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "425 2nd St, San Francisco, CA 94107, USA employee_id 1572",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.784310, -122.395160);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "598 Harrison St, San Francisco, CA 94105, USA employee_id 2133",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.786987, -122.395593);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "528 Folsom St, San Francisco, CA 94105, USA employee_id 1764",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.784594, -122.394822);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "572 Harrison St, San Francisco, CA 94105, USA employee_id 1297",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.786438, -122.395188);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "25 Essex St, San Francisco, CA 94105, USA employee_id 1326",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.785479, -122.394587);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "34 Essex St, San Francisco, CA 94105, USA employee_id 280",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.783432, -122.396267);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "646 Harrison St, San Francisco, CA 94107, USA employee_id 1447",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.784551, -122.395463);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "379 2nd St, San Francisco, CA 94107, USA employee_id 841",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.785973, -122.397282);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "273 2nd St, San Francisco, CA 94105, USA employee_id 1388",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.785242, -122.396341);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "318 2nd St, San Francisco, CA 94105, USA employee_id 1540",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.784920, -122.395927);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "349 2nd St, San Francisco, CA 94107, USA employee_id 1210",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.784818, -122.396958);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "631 Folsom St, San Francisco, CA 94107, USA employee_id 1645",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.784517, -122.397194);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "633 Folsom St, San Francisco, CA 94107, USA employee_id 2068",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.784316, -122.395168);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "398 2nd St, San Francisco, CA 94107, USA employee_id 966",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.783075, -122.396321);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "657 Harrison St, San Francisco, CA 94107, USA employee_id 1327",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.786512, -122.397038);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "235 2nd St, San Francisco, CA 94105, USA employee_id 1241",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.785233, -122.395693);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "303 2nd St, San Francisco, CA 94107, USA employee_id 1034",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.786601, -122.397400);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "63 Tehama St, San Francisco, CA 94105, USA employee_id 1689",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.786827, -122.395158);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "525 Folsom St, San Francisco, CA 94105, USA employee_id 348",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.784098, -122.396745);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "155 Hawthorne St, San Francisco, CA 94107, USA employee_id 219",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.785712, -122.394233);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "75 Lansing St, San Francisco, CA 94105, USA employee_id 305",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.783829, -122.396452);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "642 Harrison St, San Francisco, CA 94107, USA employee_id 2034",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.786067, -122.396083);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "570 Folsom St, San Francisco, CA 94105, USA employee_id 822",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.783444, -122.396284);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "198 Hawthorne St, San Francisco, CA 94107, USA employee_id 1443",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.784920, -122.395927);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "349 2nd St, San Francisco, CA 94107, USA employee_id 2135",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.782150, -122.396854);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "275 Perry St, San Francisco, CA 94107, USA employee_id 860",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.784316, -122.395168);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "399 2nd St, San Francisco, CA 94107, USA employee_id 1978",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.786032, -122.396730);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "299 2nd St, San Francisco, CA 94105, USA employee_id 1924",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.785479, -122.394587);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "34 Essex St, San Francisco, CA 94105, USA employee_id 756",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.784310, -122.395160);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "598 Harrison St, San Francisco, CA 94105, USA employee_id 755",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.783880, -122.395700);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "621 Harrison St, San Francisco, CA 94107, USA employee_id 1784",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.786758, -122.395675);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "530 Folsom St, San Francisco, CA 94105, USA employee_id 982",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(37.788987, -122.398586);
+		var img = new google.maps.MarkerImage('/home/jeremy/anaconda3/lib/python3.5/site-packages/gmplot/markers/008000.png');
+		var marker = new google.maps.Marker({
+		title: "centroid",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+	}
+</script>
+</head>
+<body style="margin:0px; padding:0px;" onload="initialize()">
+	<div id="map_canvas" style="width: 100%; height: 100%;"></div>
+</body>
+</html>
