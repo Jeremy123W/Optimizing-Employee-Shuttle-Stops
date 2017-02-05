@@ -1,6 +1,6 @@
 # Optimizing-Employee-Shuttle-Stops
 
-This is my solution to one of the problems in the Collection of Data Science Take-home Challenges book by Giulio Palombo.
+This is my solution to one of the problems in the Collection of Data Science Take-home Challenges book by Giulio Palombo. The data sets are not included as to preserve the copyright of the book.
 
 Optimizing_Employee_Shuttle_Stops_Solution.pdf-contains my detailed solution write up
 
